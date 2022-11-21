@@ -1,5 +1,5 @@
 .footer{
-  height: 40vh;
+  height: 55vh;
   background: linear-gradient(360deg, rgb(49, 74, 44), rgb(255, 255, 255));
   color: #40220f;
 }
@@ -56,4 +56,11 @@
   width: 24px;
   height: 24px;
   margin-right: 10px;
+}
+
+.footer__copyright{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
 }
