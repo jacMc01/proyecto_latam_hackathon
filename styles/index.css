@@ -9,3 +9,9 @@
 
 /*     PROBLEM    */
 @import url(../blocks/problem.css);
+
+/*     SOLUTION    */
+@import url(../blocks/solution.css);
+
+/*     FOOTER    */
+@import url(../blocks/footer.css);

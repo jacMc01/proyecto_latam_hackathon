@@ -42,6 +42,11 @@
   font-weight: 400;
   line-height: 24px;
   background-color: rgb(150, 181, 156);
+  transition: 0.4s ease;
+}
+
+.problem__right-description:hover{
+  box-shadow: -10px 10px rgba(0,0,0,0.8);
 }
 
 .problem__rigth-description_dos{
