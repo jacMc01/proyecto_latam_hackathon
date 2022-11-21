@@ -1,8 +1,8 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
-  /* background-color: #62bd00; */
+  width: min(90%, 900px);
+  margin: 0 auto;
 }
 
 .header__logo{
