@@ -1,7 +1,7 @@
 .header{
   display: flex;
   justify-content: space-between;
-  width: min(90%, 900px);
+  width: min(90%, 1300px);
   margin: 0 auto;
 }
 
@@ -25,7 +25,7 @@
   list-style: none;
   background-image: linear-gradient(
     to right,
-    #cb9472,
+    #347c3e,
     #783f1b 50%,
     #40220f 50%
   );

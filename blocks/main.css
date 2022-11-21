@@ -3,18 +3,18 @@
   flex-direction: column;
   text-align: center;
   height: 50vh;
-  background: linear-gradient(360deg, rgb(104, 79, 64), rgb(255, 255, 255)); 
+  background: linear-gradient(360deg, rgb(49, 74, 44), rgb(255, 255, 255)); 
 }
 
 .main__title, .main_paragraph{
-  width: min(90%, 1000px);
+  width: min(90%, 1300px);
   margin: 0 auto;
 }
 
 .main__title{
   color: #40220f;
   padding: 60px 0 70px 0;
-  font-size: 44px;
+  font-size: 54px;
 }
 
 .main_paragraph{
