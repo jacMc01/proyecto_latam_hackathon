@@ -2,33 +2,53 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 50vh;
-  background: linear-gradient(360deg, rgb(49, 74, 44), rgb(255, 255, 255)); 
+  background-image: url(../assets/images/wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main__title, .main_paragraph{
-  width: min(90%, 1300px);
+  width: 100%;
   margin: 0 auto;
 }
 
 .main__title{
   color: #40220f;
-  padding: 60px 0 70px 0;
+  padding: 40px 0 70px 0;
   font-size: 54px;
 }
 
 .main_paragraph{
-  color: #40220f;
+  color: black;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
+  margin: 0 auto 15px;
+  width: 90%;
 }
 
 .main__paragraph_span{
-  color: #3e7800;
+  color: #467c0c;
 }
 
 .main__paragraph_bold{
   font-size: 24px;
   line-height: 45px;
+}
+
+
+@media screen and (max-width: 768px){
+  .main__title{
+    font-size: 35px;
+    padding-bottom: 30px;
+  }
+
+  .main_paragraph{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .main__paragraph_bold{
+    font-size: 25px;
+  }
 }

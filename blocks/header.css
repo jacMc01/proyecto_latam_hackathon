@@ -6,8 +6,8 @@
 }
 
 .header__logo{
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 130px;
 }
 
 .header__link{
@@ -21,6 +21,7 @@
 }
 
 .header__list-item{
+  font-size: 18px;
   margin-left: 20px;
   list-style: none;
   background-image: linear-gradient(
@@ -44,4 +45,13 @@
 
 .header__list-item:hover::before{
   width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }

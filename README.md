@@ -1,5 +1,5 @@
 # proyecto_latam_hackathon
-Proyecto organizado por Jacqueline Mckay, Aristh Valdiviezo, Dirceo Salazar
+Proyecto organizado por Jacqueline Mckay, Aristh Valdiviezo, Ibrahim Rosas
 
 Este proyecto habla sobre la basura que hay en el medio ambiente gracias a los humanos, esta pagina hace concientizar a la poblacion del mal que le estamos haciendo a nuestro alrededor y al unico planeta en el que podemos habitar hasta ahora.
 
@@ -8,7 +8,7 @@ Se verán cuales son las causas importantes en la cual gracias a esto, alimenta 
 Pero no todo es caos, tambien hay soluciones existentes para evitar e inclusive erradicar este gran problema en el que nos enfrentamos actualmente. 
 
 # proyecto_latam_hackathon
-Proyect organized by Jacqueline Mckay, Aristh Valdiviezo, Dirceo Salazar
+Proyect organized by Jacqueline Mckay, Aristh Valdiviezo, Ibrahim Rosas
 
 This project talks about the garbage that is in the environment thanks to humans, this page makes the population aware of the evil that we are doing to our surroundings and to the only planet we can inhabit until now.
 

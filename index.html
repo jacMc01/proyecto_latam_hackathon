@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="./assets/images/icon_head.png">
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/index.css">  
   <title>Concientizar la basura</title>
 </head>
 <body>
@@ -19,72 +19,94 @@
       </div>
       <div class="header__link">
         <ul class="header__list">
-          <li class="header__list-item">Home</li>
-          <li class="header__list-item">Problema</li>
-          <li class="header__list-item">Solución</li>
+          <li class="header__list-item" ><a href="#main">Home</a></li>
+          <li class="header__list-item"><a href="#problem">Problema</a></li>
+          <li class="header__list-item"><a href="#solution">Solución</a></li>
         </ul>
       </div>
     </header>
-    <section class="main">
+    
+    <section class="main" id="main">
       <h1 class="main__title">Planeta Libre de Basura</h1>
       <p class="main_paragraph">Miles de millones de toneladas de basura son descartadas año con año, no solo en latinoamerica sino a nivel mundial, contaminando el aire y el agua. Muchas de nuestras necesidaes afectan a nuestro alrededor.
       <br/>
-      <b class="main__paragraph_bold">No tenemos un <span class="main__paragraph_span">back-up</span> de planetas para destrozar el unico que tenemos.</b></p>
+      <b class="main__paragraph_bold">No tenemos un <span class="main__paragraph_span">back-up</span> de planetas para destrozar el único que tenemos.</b></p>
     </section>
-    <section class="problem">
-      <h2 class="problem__title">Problemas principales</h2>
+
+    <section class="problem" id="problem">
+      <h2 class="problem__title">Residuos inorgánicos en...</h2>
       <div class="problem__container">
-        <div class="problem__left">
-          <article class="problem__card">
-            <div class="problem__info">
-              <h3 class="problem__card-title">Basura en las aguas</h3>
-              <p class="problem__card-description">Lorem ipsum dolor sit amet consectetur adipisicing elitl Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, libero.<p>
-              <a class="problem__card-link" href="#">Más información</a>
+        <div class="card">
+            <div class="card__face front">
+                <img class="card__face-image" src="/assets/images/basuraAgua.jpg" alt="basura en el agua">
+                <h3 class="card__face-subtitle">el Agua</h3>
             </div>
-            <img src="./assets/images/problem__img_1.jpeg" alt="" class="problem__img">
-          </article>
-          <article class="problem__card">
-            <div class="problem__info">
-              <h3 class="problem__card-title">Basura en las calles</h3>
-              <p class="problem__card-description">Lorem ipsum dolor sit amet consectetur adipisicing elitl Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, libero.<p>
-              <a class="problem__card-link" href="#">Más información</a>
-            </div>
-            <img src="./assets/images/problem__img_2.jpg" alt="" class="problem__img">
-          </article>
-          <article class="problem__card">
-            <div class="problem__info">
-              <h3 class="problem__card-title">Basura en tu alrededor</h3>
-              <p class="problem__card-description">Lorem ipsum dolor sit amet consectetur adipisicing elitl Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, libero.<p>
-              <a class="problem__card-link" href="#">Más información</a>
-            </div>
-            <img src="./assets/images/problem__img_1.jpeg" alt="" class="problem__img">
-          </article>
-        </div>
-        <div class="problem__right">
-          <h4 class="problem__right-title">Opiniones</h4>
-          <p class="problem__right-description">“Si no tengo tiempo para apoyar movimientos que ayudan a mejorar este planeta, con mucho gusto estaré apoyando económicamente al movimiento mundial de Greenpeace y así me siento que estoy unido a este movimiento y al ver sus acciones que hacen en todo el mundo. Me siento genial ya que mi donativo ayuda a hacer algo bueno por el planeta que he de dejar a mis hijos”
 
-            Javier Centeno, Socio de Greenpeace 2015</p>
-          <p class="problem__right-description problem__rigth-description_dos">“Considero que las personas que vivimos atrapadas en el día a día del trabajo, podemos contribuir a mejorar nuestro planeta con pequeñas acciones, entre ellas, donar un poco de nuestro sueldo para financiar acciones más grandes e importantes, que impacten a mayor número de personas y, sobre todo, que vayan, poco a poco, revirtiendo los nefastos efectos de la contaminación. Por nuestra salud y el futuro de nuestros niños, ¡salvemos el planeta!.”
-
-            Aidé Ávila, Socia de Greenpeace desde 2008</p>
+            <div class="card__face back">
+                <h3 class="card__face-subtitle">Problema</h3>
+                <p class="card__face-text">La basura puede trasladarse por todos los ríos y océanos del mundo, y acumularse en playas y en giros oceánicos. Estos residuos dañan los hábitats físicos, transportan contaminantes químicos, amenazan la vida acuática e interfieren con el uso humano de ríos y medio ambientes fluviales, marinos y costeros.</p>
+                <div class="card__face-link">
+                    <a href="#solution1">Soluciones</a>
+                </div>
+            </div>            
         </div>
-      </div>
+
+        <div class="card">
+            <div class="card__face front">
+                <img class="card__face-image" src="/assets/images/basuraCalle.jpg" alt="basura en el agua">
+                <h3 class="card__face-subtitle">la Calle</h3>
+            </div>
+
+            <div class="card__face back">
+                <h3 class="card__face-subtitle">Problema</h3>
+                <p class="card__face-text">Una de las peores consecuencias de tirar basura en la calle es la pérdida de vidas silvestres. Cada día que pasa la biodiversidad se ve reducida, la extinción de especies a causa de la contaminación posee cifras alarmantes y aumenta exponencialmente. Esto nos da entender la importancia de disminuir el impacto ambiental que generamos.</p>
+                <div class="card__face-link">
+                    <a href="#solution2">Soluciones</a>
+                </div>
+            </div>            
+        </div>
+
+        <div class="card">
+            <div class="card__face front">
+                <img class="card__face-image" src="/assets/images/basuraBosque.jpg" alt="basura en el agua">
+                <h3 class="card__face-subtitle">el Bosque</h3>
+            </div>
+
+            <div class="card__face back">
+                <h3 class="card__face-subtitle">Problema</h3>
+                <p class="card__face-text">La pérdida de árboles y otra vegetación puede causar el cambio climático, desertificación, erosión del suelo, daños a la calidad de la tierra -ya que los suelos forestales son húmedos-, inundaciones, aumento de los gases de efecto invernadero en la atmósfera que aumentan el calentamiento global y problemas vitales de las poblaciones indígenas</p>
+                <div class="card__face-link">
+                    <a href="#solution3">Soluciones</a>
+                </div>
+            </div>            
+        </div>
+    </div>
+
     </section>
-    <section class="solution">
+    <section class="solution" id="solution">
       <div class="solution-container">
         <h2 class="solution-container__title">Soluciones</h2>
         <ol class="solution-container__list">
-          <li>List item</li>
-          <li>List item</li>
-          <li>List item</li>
+          <li id="solution1">
+            <h4>Usa botellas/vasos reutilizables</h4>
+            <p class="">Pon esa botella reutilizable en circulación: ahorrarás dinero y reducirás la basura. Además, si llevas tu propia agua cuando sales de tu casa, comprarás menos bebidas más caras por la calle. Esto eliminará los contenedores de uso único en los que vienen. Si bien la mayoría de las latas y botellas pueden reciclarse, se necesita un montón de energía para producirlas, transportarlas a la planta embotelladora y luego a las tiendas.</p>
+          </li>
+          <li id="solution2">
+            <h4>Compra con inteligencia y recicla</h4>
+            <p class="">Puedes reducir la cantidad de basura que produces comprando productos que vienen con menos empaques o en empaques que pueden reciclarse. No todos los plásticos son reciclables en diferentes ciudades. Verifica siempre las etiquetas antes de comprar. Los plásticos etiquetados como 3/PVC y 6/PS generalmente no son reciclables en algunos lugares.</p>
+          </li>
+          </li>
+          <li id="solution3">
+            <h4>¡A compostar!</h4>
+            <p class="">¿Sabías que alrededor del 25 % de los componentes de tu basura podrían salir del circuito de los residuos si haces compostaje en tu patio o jardín? Los restos de frutas y verduras, las cáscaras de huevo, la borra del café, el césped podado y las hojas secas, todo eso se puede compostar. Si bien el compostaje requiere más esfuerzo que los otros cambios de hábitos que mencionamos, te aportará un gran beneficio por tu inversión de tiempo y energía. Dependiendo de las condiciones, el compost estará listo para usar en el jardín en tres a doce meses. Ahorrarás en fertilizantes y, si cultivas tus propios vegetales, seguramente verás que producen más. La materia orgánica también actuará como una esponja para absorber más agua. Esto hará que no tengas que regar tan seguido, y te ahorrará tiempo y dinero.</p>
+          </li>
       </ol>
       </div>
     </section>
     <footer class="footer">
       <div class="footer__container">
         <div class="footer__about-us">
-          <p class="footer__about-us_paragraph">Esta pagina fue creada por Jacqueline Mckay Hernandez, Jose Aristh Valdiviezo Mora y Dirceo Salazar para concurso de hackathon organizado por Practicum concientizando el problema ambiental causado por la basura que existe en nuestras localidades, pero que se sabe que afecta mundialmente.</p>
+          <p class="footer__about-us_paragraph">Esta pagina fue creada por Jacqueline Mckay Hernandez, Jose Aristh Valdiviezo Mora y Ibrahim Rosas para concurso de hackathon organizado por Practicum concientizando el problema ambiental causado por la basura que existe en nuestras localidades, pero que se sabe que afecta mundialmente.</p>
         </div>
         <div class="footer__contact-us">
           <ul class="footer__contact-us_list">
@@ -96,8 +118,8 @@
             <li class="footer__contact-us_list-item footer__contact-us_list-item__email">jvaldiviezo@practicum.com</li>
           </ul>
           <ul class="footer__contact-us_list">
-            <li class="footer__contact-us_list-item footer__contact-us_list-item__name">Dirceo Salazar</li>
-            <li class="footer__contact-us_list-item footer__contact-us_list-item__email">Dirceo Salazar@practicum.com</li>
+            <li class="footer__contact-us_list-item footer__contact-us_list-item__name">Ibrahim Rosas</li>
+            <li class="footer__contact-us_list-item footer__contact-us_list-item__email">ibrahimRosas@practicum.com</li>
           </ul>
         </div>
         <div class="footer__networking">
